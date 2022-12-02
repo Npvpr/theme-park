@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+    --fontH1: 2rem;
+    --fontH2: 1.8rem;
+    --fontH3: 1.6rem;
+    --fontH4: 1.4rem;
+    --fontH5: 1.2rem;
+    --containerMargin: 100px;
+}
+
+.navigationDiv{
+    background-color: rgb(0, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: var(--fontH1);
+    padding: 20px;
+}
+
+.logoDiv{
+    background-color: rgb(0, 0, 255);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.containerMain{
+    margin: 10px var(--containerMargin);
+}
+
+.mainFeatureDiv{
+    background-image: url("../images/mainFeature.jpg");
+    margin: 50px 0;
+    width: calc(100vw - calc(var(--containerMargin) * 2));
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mainFeatureInfo{
+    margin: 0 0 20px 50px;
+    font-size: 1.5rem;
+}
+
+.itemsContainer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.specialTitle{
+    font-size: var(--fontH2);
+    margin-bottom: 20px;
+}
+
+.activityImgDivs {
+    line-height: 0;
+}
+
+.activityImgs{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.activityTxts{
+    background-color: rgb(0, 0, 255);
+    padding: 10px;
+    border-radius: 0 0 20px 20px;    
+}
+
+footer{
+    display: flex;
+    font-size: var(--fontH4);
+    background-color: rgb(0, 255, 255);
+    margin-top: 20px;
+    justify-content: space-around;
+}
