@@ -2,178 +2,164 @@
 <html>
     <head>
         <title>Theme Park</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="./css/main.css"/>
+        <link rel="stylesheet" href="./css/activity.css"/>
     </head>
     <body>
         <nav class="navigationDiv">
-            <div class="logoDiv">
-                Logo
-            </div>
+            <a class="logoDiv" href="index.html">
+                <img class="logoImg" src="./images/themeparkLogo.png">
+                <div class="logoTxt">Theme Park</div>
+            </a>
             <div class="infoDiv">
                 Park Info
             </div>
-            <div class="activityDiv">
+            <a class="activityA" href="activity.html">
                 Activities
-            </div>
+            </a>
             <div class="planDiv">
                 Plan
             </div>
         </nav>
-        <div class="mapDiv">
-            <div class="mapImg">
-                Something good popular right now
-            </div>
-        </div>
-        <div class="rideTitle">
-            Rides
-        </div>
-        <div class="rideItemsContainer">
-            <div class="rideFirstContainer">
-                <div class="rideFirstImgDiv">
-                    Image
-                </div>
-                <div class="rideFirstInfoDiv">
-                    <div class="rideFirstInfoTxt">
-                        Rollar Coaster
-                    </div>
-                    <div class="detailPlus" id="rideFirstInfoDetail">
-                        <button>+</button>
-                    </div>
+        <div class="containerMain">
+            <div class="mapDiv">
+                <div class="mapImg">
+                    Something good popular right now
                 </div>
             </div>
-            <div class="rideSecondContainer">
-                <div class="rideSecondImgDiv">
-                    Image
-                </div>
-                <div class="rideSecondInfoDiv">
-                    <div class="rideSecondInfoTxt">
-                        Water Surf
+            <div class="titles rideTitle">
+                Rides
+            </div>
+            <div class="catCon ridesCon">
+                <div class="actCon ride1Con">
+                    <img class="actImg ride1Img" src="./images/halloween.jpg">
+                    <div class="ride1InfoCon">
+                        <div class="actTxt ride1Txt">
+                            Rollar Coaster
+                        </div>
+                        <div class="detailPlus" id="rideFirstInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
-                    <div class="detailPlus" id="rideSecondInfoDetail">
-                        <button>+</button>
+                </div>
+                <div class="ride2Con">
+                    <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="rideSecondInfoDiv">
+                        <div class="activityTxts rideSecondInfoTxt">
+                            Water Surf
+                        </div>
+                        <div class="detailPlus" id="rideSecondInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="showTitle">
-            Shows
-        </div>
-        <div class="showItemsContainer">
-            <div class="showFirstContainer">
-                <div class="showFirstImgDiv">
-                    Image
-                </div>
-                <div class="showFirstInfoDiv">
-                    <div class="showFirstInfoTxt">
-                        Forest Animals
+            <div class="titles showTitle">
+                Shows
+            </div>
+            <div class="itemsContainer showItemsContainer">
+                <div class="showFirstContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="showFirstInfoDiv">
+                        <div class="activityTxts showFirstInfoTxt">
+                            Forest Animals
+                        </div>
+                        <div class="detailPlus" id="showFirstInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
-                    <div class="detailPlus" id="showFirstInfoDetail">
-                        <button>+</button>
+                </div>
+                <div class="showSecondContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="showSecondInfoDiv">
+                        <div class="activityTxts showSecondInfoTxt">
+                            Sea Animals
+                        </div>
+                        <div class="detailPlus" id="showSecondInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="showSecondContainer">
-                <div class="showSecondImgDiv">
-                    Image
-                </div>
-                <div class="showSecondInfoDiv">
-                    <div class="showSecondInfoTxt">
-                        Sea Animals
+            <div class="titles eventTitle">
+                Events
+            </div>
+            <div class="itemsContainer eventItemsContainer">
+                <div class="eventFirstContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="eventFirstInfoDiv">
+                        <div class="activityTxts eventFirstInfoTxt">
+                            Halloween
+                        </div>
+                        <div class="detailPlus" id="eventFirstInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
-                    <div class="detailPlus" id="showSecondInfoDetail">
-                        <button>+</button>
+                </div>
+                <div class="eventSecondContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="eventSecondInfoDiv">
+                        <div class="activityTxts eventSecondInfoTxt">
+                            Christmas
+                        </div>
+                        <div class="detailPlus" id="eventSecondInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="eventTitle">
-            Events
-        </div>
-        <div class="eventItemsContainer">
-            <div class="eventFirstContainer">
-                <div class="eventFirstImgDiv">
-                    Image
-                </div>
-                <div class="eventFirstInfoDiv">
-                    <div class="eventFirstInfoTxt">
-                        Halloween
+            <div class="titles diningTitle">
+                Dinings
+            </div>
+            <div class="itemsContainer diningItemsContainer">
+                <div class="diningFirstContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="diningFirstInfoDiv">
+                        <div class="activityTxts diningFirstInfoTxt">
+                            Hotpot
+                        </div>
+                        <div class="detailPlus" id="diningFirstInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
-                    <div class="detailPlus" id="eventFirstInfoDetail">
-                        <button>+</button>
+                </div>
+                <div class="diningSecondContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="activityTxts diningSecondInfoDiv">
+                        <div class="diningSecondInfoTxt">
+                            BBQ
+                        </div>
+                        <div class="detailPlus" id="diningSecondInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="eventSecondContainer">
-                <div class="eventSecondImgDiv">
-                    Image
-                </div>
-                <div class="eventSecondInfoDiv">
-                    <div class="eventSecondInfoTxt">
-                        Christmas
-                    </div>
-                    <div class="detailPlus" id="eventSecondInfoDetail">
-                        <button>+</button>
-                    </div>
-                </div>
+            <div class="titles shopTitle">
+                Shops
             </div>
-        </div>
-        <div class="diningTitle">
-            Dinings
-        </div>
-        <div class="diningItemsContainer">
-            <div class="diningFirstContainer">
-                <div class="diningFirstImgDiv">
-                    Image
-                </div>
-                <div class="diningFirstInfoDiv">
-                    <div class="diningFirstInfoTxt">
-                        Hotpot
-                    </div>
-                    <div class="detailPlus" id="diningFirstInfoDetail">
-                        <button>+</button>
+            <div class="itemsContainer shopItemsContainer">
+                <div class="shopFirstContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="activityTxts shopFirstInfoDiv">
+                        <div class="shopFirstInfoTxt">
+                            Gift Shop
+                        </div>
+                        <div class="detailPlus" id="shopFirstInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="diningSecondContainer">
-                <div class="diningSecondImgDiv">
-                    Image
-                </div>
-                <div class="diningSecondInfoDiv">
-                    <div class="diningSecondInfoTxt">
-                        BBQ
-                    </div>
-                    <div class="detailPlus" id="diningSecondInfoDetail">
-                        <button>+</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shopTitle">
-            Shops
-        </div>
-        <div class="shopItemsContainer">
-            <div class="shopFirstContainer">
-                <div class="shopFirstImgDiv">
-                    Image
-                </div>
-                <div class="shopFirstInfoDiv">
-                    <div class="shopFirstInfoTxt">
-                        Gift Shop
-                    </div>
-                    <div class="detailPlus" id="shopFirstInfoDetail">
-                        <button>+</button>
-                    </div>
-                </div>
-            </div>
-            <div class="shopSecondContainer">
-                <div class="shopSecondImgDiv">
-                    Image
-                </div>
-                <div class="shopSecondInfoDiv">
-                    <div class="shopSecondInfoTxt">
-                        Toys
-                    </div>
-                    <div class="detailPlus" id="shopSecondInfoDetail">
-                        <button>+</button>
+                <div class="shopSecondContainer">
+                        <img class="activityImgs specialFirstImg" src="./images/halloween.jpg">
+                    <div class="activityTxts shopSecondInfoDiv">
+                        <div class="shopSecondInfoTxt">
+                            Toys
+                        </div>
+                        <div class="detailPlus" id="shopSecondInfoDetail">
+                            <button>+</button>
+                        </div>
                     </div>
                 </div>
             </div>
