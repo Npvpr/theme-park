@@ -1,5 +1,11 @@
 .mapImg{
-    width: 82rem;
+    width: 70rem;
+}
+
+.mapCon{
+    display: flex;
+    justify-content: center;
+
 }
 
 .mainCon{
@@ -8,7 +14,7 @@
 
 .catCon{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
@@ -32,8 +38,14 @@
     padding: 10px 10px 10px 50px;
 }
 
+.ride4Con{
+    display: flex;
+    justify-content: center;
+    width: 82rem;
+}
+
 .warnTxt{
     background-color: rgba(255, 0, 0, 40%);
-    width: 100%;
+    /* width: 100%; */
     padding: 10px 50px;
 }
