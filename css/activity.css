@@ -1,26 +1,39 @@
-.itemsContainer{
+.mapImg{
+    width: 82rem;
+}
+
+.mainCon{
+    max-width: 82rem;
+}
+
+.catCon{
     display: flex;
-    justify-content: space-around;    
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.titles{
-    font-size: var(--fontH2);
-    margin-bottom: 20px;
+.actCon{
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+    margin: 15px;
 }
 
-.activityImgDivs {
-    line-height: 0;
+.actImg{
+    width: 350px;
+    height: 15rem;
+    /* margin-bottom: 0; */
+    display: block; /* remove white space below image */
 }
 
-.activityImgs{
-    width: 500px;
-    height: 300px;
-    margin-bottom: 0;
-    border-radius: 20px 20px 0 0;
+.actTxt{
+    background-color: rgb(255, 255, 255);
+    font-size: var(--fontH5);
+    padding: 10px 10px 10px 50px;
 }
 
-.activityTxts{
-    background-color: rgb(0, 0, 255);
-    padding: 10px;
-    border-radius: 0 0 20px 20px;    
+.warnTxt{
+    background-color: rgba(255, 0, 0, 40%);
+    width: 100%;
+    padding: 10px 50px;
 }

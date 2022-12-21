@@ -1,0 +1,71 @@
+button{
+    background-color: #816EA7;
+    width: 25px;
+    border: solid 0.1px;
+    border-radius: 20px;
+    font-size: var(--fontH4);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.hotelImgCon{
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+
+.hotelImg{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.hotelTxt{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: calc(var(--fontH1) * 2.3);
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0 0 0 / 80%);
+}
+
+.title{
+    font-size: var(--fontH1);
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.planCon{
+    font-size: var(--fontH4);
+}
+
+.choiceCons{
+    display: flex;
+    width: 40rem;
+    margin-bottom: 10px;    
+}
+
+.choiceCons .txt{
+    flex: 1;
+}
+
+.btns{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.passesCon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.silver{
+    background-color: hsl(0, 0%, 75%);
+}
+
+.diamond{
+    background-color: #B9F2FF;
+}

@@ -15,6 +15,10 @@
     --containerMargin: 150px;
 }
 
+body{
+    background-color: #fdecff;
+}
+
 .navigationDiv{
     color: #fff;
     background: linear-gradient(#816EA7, #534278);
@@ -25,15 +29,16 @@
     padding: 0.5rem 10rem;
 }
 
-
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 .logoDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 50px;
-    background: center/50px no-repeat url("../images/themeparkLogo.png"); */
 }
 
 .logoImg{
@@ -44,66 +49,129 @@
     font-size: var(--fontH5);
 }
 
-
-.mainFeatureDiv{
+.specialFeaCon{
     background-image: url("../images/mainFea.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* width: calc(100vw - calc(var(--containerMargin) * 2)); */
-    /* /* width: 100vw; */
     height: 600px;
     display: flex;
     align-items: flex-end;
     margin-bottom: 10px;
 }
 
-.mainFeatureInfo{
+.specialFeaTxt{
     margin: 0 0 20px 50px;
     font-size: 1.5rem;
 }
 
-.containerMain{
+.mainCon{
     /* putting horizontal center */
     margin: 0 auto;
-    max-width: 80rem;
-}
-
-
-.specialTitle{
-    font-size: var(--fontH2);
-    margin-bottom: 20px;
-}
-
-.itemsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.eachItemContainer{
-    border-radius: 12px;
+    max-width: 95rem;
     overflow: hidden;
-    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 100%);
-    margin: 10px;
 }
 
-.activityImgs{
-    max-width: 400px;
-    height: 15rem;
-    margin-bottom: 0;
-    display: block; /* remove white space below image */
+.title{
+    font-size: var(--fontH2);
+    margin-top: 40px;
+    margin-bottom: 5px;
+    width: 100%;
 }
 
-.activityTxts{
-    /* background-color: rgb(0, 0, 255); */
-    font-size: var(--fontH5);
-    padding: 10px 10px 10px 50px;
+.restGiftFeasCon{
+    margin-top: 15px;
+    padding: 10px;
+    display: grid;
+    gap: 8px;
+    grid-template-areas:
+    "a b d"
+    "a c d";
+}
+
+.restGiftFeasCon img, .rideShowFeasCon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 50%);
+}
+
+.feaCon{
+    position: relative;
+}
+
+.sweetFeaCon{
+    grid-area: a;
+}
+
+.barFeaCon{
+    grid-area: b;
+}
+
+.giftFeaCon{
+    grid-area: c;
+}
+
+.treeFeaCon{
+    grid-area: d;
+}
+
+.feaTxt{
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-size: var(--fontH4);
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0 0 0 / 80%);
+}
+
+.rideShowFeasCon{
+    /* width: 70rem;
+    margin-left: 10rem; */
+    margin-top: 15px;
+    padding: 10px;
+    display: grid;
+    gap: 8px;
+    /* grid-template-columns: repeat(1fr); */
+    justify-items: center;
+    justify-content: center;
+    grid-template-areas:
+    "e e"
+    "f g"
+    "h h";
+}
+
+.rollerFeaCon{
+    grid-area: e;
+}
+
+.ferrisFeaCon{
+    grid-area: f;
+}
+
+.animalFeaCon{
+    grid-area: g;
+}
+
+.circusFeaCon{
+    grid-area: h;
 }
 
 footer{
+    color: #fff;
     display: flex;
-    font-size: var(--fontH4);
+    font-size: var(--fontH5);
     background: linear-gradient(#816EA7, #534278);
     margin-top: 20px;
+    padding: 10px;
     justify-content: space-around;
+}
+
+.physicalCon{
+    display: flex;
+    align-items: center;
+}
+
+.socialCon img{
+    height: 30px;
+    margin: 5px;
 }
