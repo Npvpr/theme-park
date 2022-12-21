@@ -62,10 +62,45 @@ button:hover{
     justify-content: space-around;
 }
 
+/* silver and diamond passes */
+.passesCon>div{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    position: relative;
+}
+
+.passesCon .title{
+    margin: 10px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.passesCon .txt li{
+    margin: 0 0 8px 30px;
+    -webkit-text-stroke: 0.6px black;
+    list-style: url("../images/caret-right-solid.svg");
+}
+
+.passesCon img{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    width: 100px;
+}
+
 .silver{
-    background-color: hsl(0, 0%, 75%);
+    /* -webkit-text-fill-color: transparent; */
+    color: hsl(0, 0%, 69%);
+    -webkit-text-stroke: 0.1px black;
+    background: linear-gradient(0.25turn, hsl(0, 0%, 69%), hsl(0, 0%, 86%), hsl(0, 0%, 69%));
 }
 
 .diamond{
-    background-color: #B9F2FF;
+    /* -webkit-text-fill-color: transparent; */
+    color: hsl(203, 55%, 74%);
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+    background: linear-gradient(0.25turn, hsl(202, 49%, 78%), hsl(201, 55%, 94%), hsl(202, 49%, 78%));
 }
+
